@@ -30,7 +30,7 @@ h1, h2 {
   font: normal 170% 'century gothic', arial;
   margin: 0 0 15px 0;
   padding: 15px 0 5px 0;
-  color: #000000;
+  color: #000;
 }
 
 h2 {
@@ -40,7 +40,7 @@ h2 {
 a, a:hover {
   outline: none;
   text-decoration: underline;
-  color: #808080;
+  color: #aeb002;
 }
 
 ul {
@@ -55,7 +55,7 @@ ul li {
 
 /*Верхняя панель*/
 .header {
-  background-color:chocolate;
+  background-color:darkslateblue;
   height: 177px;
   font-size: 0.8em;
   margin-left: 0px;
@@ -87,8 +87,8 @@ ul li {
 
 .logo_text h2 {
   font-size: 0.9em;
-  padding: 8px 0 0 0;
-  color: #000000;
+  padding: 4px 0 0 0;
+  color: #999;
 }
 
 .menubar {
@@ -108,24 +108,24 @@ ul.menu li {
 }
 
 ul.menu li a {
-  font: normal 125% 'trebuchet ms', sans-serif;
+  font: normal 100% 'trebuchet ms', sans-serif;
   display: block;
-  height: 30px;
-  padding: 5px 35px 5px 28px;
-  color: #000000;
+  height: 20px;
+  padding: 6px 35px 5px 28px;
+  color: #fff;
   text-decoration: none;
 }
 
 ul.menu li.selected a {
-  color: #000000;
+  color: #aeb002;
 }
 
 ul.menu li a:hover {
-  color: #000000;
+  color: #e4ec04;
 }
 
 hr {
-  border: solid 1px #000000;
+  border: solid 1px #f3f3f3;
 }
 
 .site_content {
@@ -142,10 +142,10 @@ hr {
 /*Рамки*/
 .sidebar {
   float: right;
-  width: 200px;
+  width: 222px;
   padding: 5%;
   margin: 0 0 16px 0;
-  border: solid 1px #D2691E;
+  border: solid 1px #f2f2f2;
   border-radius: 5px;
   background-color: #f9f9f9;
 }
@@ -157,7 +157,7 @@ hr {
 }
 
 .sidebar h2 {
-  color: #000000;
+  color: #136cb2;
 }
 
 .lables_passreg_text {
@@ -197,7 +197,7 @@ hr {
 /*Рамки подборок*/
 .films_block img {
   border-radius: 5px;
-  border: solid 5px #D2691E;
+  border: solid 5px #dad7d5;
   width: 22%;
 } 
 
@@ -219,7 +219,7 @@ hr {
 
 .info_film_page .value {
   font-size: 1em;
-  color: #000000;
+  color: #49945A;
   margin-right: 3%;
 }
 
@@ -231,7 +231,7 @@ hr {
   float:left;
   margin-right: 2%;
   border-radius: 5px;
-  border: solid 5px #000000;
+  border: solid 5px #dad7d5;
 }
 
 .reviews {
@@ -240,7 +240,7 @@ hr {
 }
 
 .reviews .review_name {
-  background-color: #000000;
+  background-color: #7268AD;
   color: white;
   padding: 1%;
   border-top-left-radius: 5px;
@@ -258,7 +258,7 @@ hr {
 }
 
 .send input[type="text"], textarea {
-  border: solid 1px #000000;
+  border: solid 1px #C3C3C3;
   margin-bottom: 2%;
 }
 
@@ -272,7 +272,7 @@ hr {
 }
 
 .send input[type="submit"]{
-  background-color: #000000;
+  background-color: #7268AD;
   padding: 3%;
   color: white;
   border-radius: 5px;
@@ -292,21 +292,21 @@ hr {
 /*Заливка новинок*/
 .info_film {
   margin-bottom: 5%;
-  background-color: #FAEBD7;
-  padding: 20%;
-  height: 350px;
+  background-color: #f9f9f9;
+  padding: 5%;
+  height: 270px;
 }
 /*Ramki v Novinkax*/
 .info_film img {
-  float: right;
+  float: left;
   margin-right: 2%;
-  border-radius: 3px;
-  border: solid 10px #000000;
+  border-radius: 5px;
+  border: solid 5px #dad7d5;
   width: 25%;
 }
 /*Кнопка смотреть*/
 .button {
-  background-color: #D2691E;
+  background-color: #7268ad;
   padding: 2%;
   color: white;
   border-radius: 5px;
@@ -323,20 +323,17 @@ hr {
 
 table {
   width: 100%;
-  border: solid 1px #000000;
-  
+  border: solid 1px #f4f4f4;
 }
 
 td {
   padding: 2%;
-  border: solid 1px #000000;
-
+  border: solid 1px #f4f4f4;
 }
 
 td img {
   width: 60px;
   vertical-align: middle;
-  
 }
 
 .center {
@@ -344,8 +341,7 @@ td img {
 }
 
 .rating {
-  font-weight: white;
- 
+  font-weight: bold;
 }
 /*Нижняя рамка*/
 .footer {
@@ -353,7 +349,7 @@ td img {
   height: 100px;
   padding: 28px 0 5px 0;
   text-align: center;
-  background-color: chocolate;
+  background-color: darkslateblue;
   color: #a8aa94;
   margin-left: 0px;
   margin-right: 0px;
@@ -361,7 +357,7 @@ td img {
 }
 
 .footer a {
-  color: #000000;
+  color: #a8aa94;
   text-decoration: none;
 }
 
