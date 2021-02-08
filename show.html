@@ -6,15 +6,16 @@
 	<title>Фильм Интерстеллар</title>
 	<meta name="description" content="КиноБаза - это портал о кино" />
 	<meta name="keywords" content="фильмы, фильмы онлайн, hd" />
+	<link rel="icon"  href="assets/img/favicon.png" type="image/x-icon"/>
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
 	<!--  -->
 	
-	<div class="main">
+	<main>
 		
-		<div class="header">
+		<header>
 			<div class="logo">
 				<div class="logo_text">
 					<h1><a href="index.html">КиноБаза</a></h1>
@@ -24,18 +25,18 @@
 
 			<!-- MENU -->
 
-			<div class="menubar">
+			<nav>
 				
 				<ul class="menu">
-					<li class="selected"><a href="index.html">Главная</a></li>
-					<li class="selected"><a href="films.html">Фильмы</a></li>
-					<li class="selected"><a href="serial.html">Сериалы</a></li>
-					<li class="selected"><a href="rating.html">Рейтинг фильмов</a></li>
-					<li class="selected"><a href="contact.html">Контакты</a></li>
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="films.html">Фильмы</a></li>
+					<li><a href="serial.html">Сериалы</a></li>
+					<li><a href="rating.html">Рейтинг фильмов</a></li>
+					<li><a href="contact.html">Контакты</a></li>
 				</ul>
 
-			</div>
-		</div>
+			</nav>
+		</header>
 
 		
 
@@ -45,16 +46,17 @@
 				
 				
 
-				<div class="sidebar">
+				<sidebar>
 					<h2>Поиск</h2>
 					<form method="post" action="#" id="search_form" >
 						<input type="search" name="search_field" placeholder="ваш запрос" />
 						<input type="submit" class="btn" value="найти" />
 					</form>
-				</div>
+				</sidebar>
 
-			
-				<div class="sidebar">
+				
+
+				<sidebar>
 					<h2>Вход</h2>
 					<form method="post" action="#" id="login">
 						
@@ -66,17 +68,18 @@
 						</div>
 
 					</form>
-				</div>	
-				<div class="sidebar">
+				</sidebar>
+
+				<sidebar>
 					<h2>Новости</h2>
 					<span>28.01.2021</span>
 					<p>Мы запустили расширенный поиск</p>
 					<a href="#">читать</a>
-				</div>
+				</sidebar>
 
 				<!-- RATING -->
 
-				<div class="sidebar">
+				<sidebar>
 					<h2>Рейтинг фильмов</h2>
 					<ul>
 						<li><a href="show.html">Интерстеллар</a><span class="rating_sidebar">8.1</span></li>
@@ -84,22 +87,22 @@
 						<li><a href="show01.html">Безумный макс</a><span class="rating_sidebar">7.5</span></li>
 						<li><a href="show03.html">Облачный атлас</a><span class="rating_sidebar">7.4</span></li>
 					</ul>
-				</div>
+				</sidebar>
 
-				<div class="sidebar">
+				<sidebar>
 					<h2>Рейтинг сериалов</h2>
 					<ul>
-						<li><a href="#">Во все тяжкие</a><span class="rating_sidebar">8.9</span></li>
-						<li><a href="#">Силиконовая долина</a><span class="rating_sidebar">8.3</span></li>
+						<li><a href="show2.html">Во все тяжкие</a><span class="rating_sidebar">8.9</span></li>
+						<li><a href="show3.html">Силиконовая долина</a><span class="rating_sidebar">8.3</span></li>
 						<li><a href="show1.html">Секретные материалы</a><span class="rating_sidebar">8.2</span></li>
-						<li><a href="#">Ходячие мертвецы</a><span class="rating_sidebar">8.0</span></li>
+						<li><a href="show4.html">Ходячие мертвецы</a><span class="rating_sidebar">8.0</span></li>
 					</ul>
-				</div>
+				</sidebar>
 
 
 			</div>
 
-			<div class="content">
+			<section>
 
 				<h1>Интерстеллар</h1>
 
@@ -116,7 +119,9 @@
 					<img src="assets/img/inter.png">
 					Когда засуха приводит человечество к продовольственному кризису, коллектив исследователей и учёных отправляется сквозь червоточину (которая предположительно соединяет области пространства-времени через большое расстояние) в путишествие, чтобы превзойти прежние ограничения для космических путешествий человека и переселить человечество на другую планету.
 				</div>
-			</div>
+
+
+
 
 				<hr>
 				<h2>Отзывы об Интерстеллар</h2>
@@ -140,7 +145,6 @@
 				</div>
 
 				<div class="send">
-					<div class="send">
 					<form method="post" action="#" id="review">
 						<input type="text" name="review_name" placeholder="ваше имя">
 						<textarea name="review_text"></textarea>
@@ -148,10 +152,10 @@
 					</form>
 				</div>
 
-			</div>
+			</section>
 		</div>
 
-		<div class="footer">
+		<footer>
 		<p>
 			<a href="index.html">Главная</a> |
 			<a href="films.html">Фильмы</a> |
@@ -160,10 +164,11 @@
 			<a href="contact.html">Контакты</a>
 		</p>
 		<p>kinopoisk.ru</p>
-	</div>
+	</footer>
 
-	</div>
+	</main>
 
 </body>
 </html>
+
 
