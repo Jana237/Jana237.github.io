@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.0em;
+  background-color: #fff;
+  color: #555;
+}
+
+p {
+  padding: 0 0 20px 0;
+  line-height: 1.7em;
+}
+
+input[type="text"], input[type="password"], input[type="search"] {
+  color: #5d5d5d;
+  width: 60%;
+  padding: 8px;
+} 
+
+/*Заголовки*/
+h2 {
+  font: normal 200% 'century gothic', arial;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;
+  color: #000;
+}
+
+h2 {
+  font-size: 140%;
+}
+
+ul {
+  margin: 2px 0 22px 17px;
+}
+
+ul li {
+  margin: 0 0 6px 0;
+  padding: 0 0 4px 5px;
+  line-height: 1.5em;
+}
+
+/*Верхняя панель*/
+header {
+  background-color: #003153;
+  height: 90px;
+  font-size: 0.8em;
+  margin-left: 0px;
+  margin-right: 0px;
+  min-width: 100px;
+}
+
+main, .logo, nav, .site_content, footer {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  width: 880px;
+  padding-bottom: 40px;
+}
+
+.logo h1 {
+  font: normal 250% 'century gothic', arial, sans-serif;
+  margin-left: 70px;
+  margin-right: 20px;
+  width: 80%;
+  text-align: center;
+  letter-spacing: 0.1em;
+  
+}
+
+.logo_text h1 a {
+  padding: 10px 0 0 5px;
+  color: #2e8b57;
+  text-decoration: none;
+  font-family: cursive;
+
+}
+
+.logo_text p {
+  font-size: 2.0em;
+  padding: 30px 0 0 0;
+  color: #fff;
+  text-align: center;
+
+}
+
+nav {
+  width: 350px;
+  height: 400px;
+
+}
+
+ul.menu  p a {
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+  font-size: 2.0em;
+
+}
+
+/*Нижняя рамка*/
+#footer {
+  background-color: #003153;
+  position: fixed; /* Фиксированное положение */
+  left: 0; bottom: 0; /* Левый нижний угол */
+  width: 100%; 
+  text-align: center;
+}
+
+#footer p a {
+  color: #2e8b57; 
+  font-size: 1.2em;
+  
+}
+
+
+
+
+ 
