@@ -16,7 +16,7 @@ p {
 }
 
 ul {
-  margin: 50px 0 0 0px;
+  margin: 10px 0 0 0px;
 
 }
 
@@ -36,7 +36,7 @@ header {
   min-width: 100px;
 }
 
-main, .logo, nav, .site_content, footer {
+main, .logo, nav, footer {
   margin-left: auto;
   margin-right: auto;
 }
@@ -48,7 +48,7 @@ main, .logo, nav, .site_content, footer {
 
 .logo h1 {
   font: normal 250% 'century gothic', arial, sans-serif;
-  margin-left: 50px;
+  margin-left: 0px;
   margin-right: 20px;
   width: 80%;
   text-align: center;
@@ -61,7 +61,7 @@ main, .logo, nav, .site_content, footer {
   color: #fff;
   text-decoration: none;
   font-family: cursive;
-  text-align: center;
+
   
 }
 
@@ -69,9 +69,9 @@ main, .logo, nav, .site_content, footer {
   font-size: 2.0em;
   padding: 60px 0 0 5px;
   color: #002a47;
-  text-align: center;
   text-decoration: underline;
   width: auto;
+  margin-left: 250px;
 }
 
 nav {
@@ -85,6 +85,8 @@ ul.menu  p a {
   text-decoration: none;
   padding: 10px 0 0 0;
   font-size: 2.0em;
+  margin-left: -100px;
+  
 
 }
 
@@ -94,18 +96,17 @@ ul.menu  p a {
   position: fixed; /* Фиксированное положение */
   left: 0; bottom: 0; /* Левый нижний угол */
   width: 100%; 
-  text-align: center;
   height: 10%;
+  text-align: center;
 }
 
 #footer  a {
   color: #3795a5; 
   font-size: 1.2em;
   margin: 20px 0 0 20px;
-  
-  
-}
 
+
+}
 /* CSS Mobile */
 
 @media only screen
@@ -118,15 +119,14 @@ and (max-device-width : 568px) {
     position: fixed;
     height: 20%;
     text-align: center;
-    height: 200px;
+    height: 150px;
     font-size: 0.8em;
     margin-left: 0px;
-    margin-right: auto;
+
   }
 
   body {
   
-    background:  (assets/img/doc.png) ;
     background: : no-repeat;
     height: 100%;
     left: 0;
@@ -139,39 +139,54 @@ and (max-device-width : 568px) {
     width: 100%;
   }
 
-
+  .logo_text h1 a {
+    text-align: center
+    
+  }
+  
+  .logo_text p {
+     margin-left: -60px;
+    
+  }
+  
   nav {
     width: 100%;
     height: 100%;
   }
 
 
-  .site_content { 
-    width: 100%;
-    text-align: center;
-  }
-
-  footer {
+   footer {
     display: none;
   }
-
+  
+  footer h3 {
+    margin-left: 0px;
+  }
+  
   ul.menu {
     float: none;
   }
 
-  ul.menu li {
-    margin: 0;
+  ul.menu p a {
+
     padding: 0;
     float: none;
+    color: #5cf3ff;
+  
   }
 
   .logo h1 {
-    font: normal 235% 'century gothic', arial, sans-serif;
+    font: normal 230% 'century gothic', arial, sans-serif;
   }
 
   .logo p {
     font: normal 150% 'century gothic', arial, sans-serif;
     color:white;
   }
+  
+  ul p {
+    text-align: center;
+  }
+  
 
 }
