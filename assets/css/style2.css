@@ -21,7 +21,7 @@ ul {
 }
 
 ul p {
-  margin: 0 0 6px 0;
+  margin: 0 0 5px 0;
   padding: 0 0 4px 5px;
   line-height: 1.5em;
 }
@@ -67,7 +67,7 @@ main, .logo, nav, footer {
 
 .logo_text p {
   font-size: 2.0em;
-  padding: 60px 0 0 5px;
+  padding: 50px 0 0 5px;
   color: #002a47;
   text-decoration: underline;
   width: auto;
@@ -85,7 +85,7 @@ ul.menu  p a {
   text-decoration: none;
   padding: 10px 0 0 0;
   font-size: 2.0em;
-  margin-left: -100px;
+  margin-left: -150px;
   
 
 }
@@ -117,11 +117,11 @@ and (max-device-width : 568px) {
     background-color:#003c66;
     min-width: 200;
     position: fixed;
-    height: 20%;
+    height: 100%;
     text-align: center;
     height: 130px;
     font-size: 0.8em;
-    margin-left: 0px;
+  
 
   }
 
@@ -147,7 +147,7 @@ and (max-device-width : 568px) {
   }
   
   .logo_text p {
-     margin-left: -60px;
+     margin-left: -50px;
     
   }
   
@@ -173,8 +173,9 @@ and (max-device-width : 568px) {
     padding: 0;
     float: none;
     color: #5cf3ff;
-    margin-right:-20px;
-  
+    margin-left: 0px;
+    margin-right: 80px;
+    font-size: 1.9em;
   }
 
   .logo h1 {
