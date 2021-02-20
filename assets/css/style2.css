@@ -114,12 +114,12 @@ and (min-device-width : 320px)
 and (max-device-width : 568px) {
 
   header {
-    background-color:#4c9ec3;
+    background-color:#003c66;
     min-width: 200;
     position: fixed;
     height: 20%;
     text-align: center;
-    height: 150px;
+    height: 130px;
     font-size: 0.8em;
     margin-left: 0px;
 
@@ -140,7 +140,9 @@ and (max-device-width : 568px) {
   }
 
   .logo_text h1 a {
-    text-align: center
+    text-align: center;
+    margin-left: 20px;
+    color: #3795a5;
     
   }
   
@@ -171,7 +173,7 @@ and (max-device-width : 568px) {
     padding: 0;
     float: none;
     color: #5cf3ff;
-    margin-right:0 px;
+    margin-right:-20px;
   
   }
 
@@ -182,6 +184,7 @@ and (max-device-width : 568px) {
   .logo p {
     font: normal 150% 'century gothic', arial, sans-serif;
     color:white;
+    margin-right: 25px;
   }
   
   ul p {
