@@ -168,9 +168,10 @@ and (max-device-width : 568px) {
   }
 
   ul.menu p a {
-    padding: 0px;
+    padding: 0;
     float: none;
     color: #5cf3ff;
+    margin-right:0 px;
   
   }
 
@@ -189,3 +190,7 @@ and (max-device-width : 568px) {
   
 
 }
+
+
+
+ 
