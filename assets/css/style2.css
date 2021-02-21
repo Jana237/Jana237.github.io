@@ -119,10 +119,17 @@ and (max-device-width : 820px) {
     height: 125px;
     text-align: center;
     font-size: 0.8em;
-    margin-left: 0px;
-    
+    margin-left: 0px;    
   }
- 
+  
+ body {
+    background: : no-repeat;
+    height: 100%;
+    left: 0;
+    opacity: 1;
+    position: fixed; 
+    top: 0;
+  }
 
   .logo {
     width: 100%;
