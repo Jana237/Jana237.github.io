@@ -116,7 +116,7 @@ and (max-device-width : 820px) {
   header {
     background-color:#003c66;
     min-width: 100%;
-    height: 120px;
+    height: 125px;
     text-align: center;
     font-size: 0.8em;
     
