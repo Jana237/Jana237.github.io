@@ -118,7 +118,6 @@ and (max-device-width : 568px) {
     min-width: 300;
     position: fixed;
     height: 100%;
-    margin: auto;
     text-align: center;
     height: 130px;
     font-size: 0.8em;
