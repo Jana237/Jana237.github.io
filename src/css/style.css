@@ -4,12 +4,7 @@
 	padding: 0;
 }
 
-html {
-	font: 'Roboto', sans-serif;
-}
-
 .container {
-	position: relative;
 	width: 1140px;
 	margin: 0 auto;
 }
@@ -82,7 +77,7 @@ h2.title {
 	font-weight: 700;
 }
 
-.promo .promo_btn, .gift .gift_btn {
+.promo .promo_btn {
 	display: block;
 	/* margin: 73px auto; */
 	margin: 0 auto;
@@ -128,7 +123,7 @@ h2.title {
 	padding: 85px 0 75px 0; 
 }
 
-.waiting .waiting_header, .finish .finish_header, .waiting .waiting_header {
+.waiting .waiting_header {
 	color: #252525;
 	font-family: Roboto;
 	font-size: 30px;
@@ -137,15 +132,7 @@ h2.title {
 	text-align: center;
 }
 
-.finish .finish_header {
-	color: #FFFFFF;
-}
-
-.waiting .waiting_header {
-	color: #252525;
-}
-
-.waiting .waiting_divider, .finish .finish_divider {
+.waiting .waiting_divider {
 	width: 217px;
 	height: 4px;
 	background-color: #F9BF3B;
@@ -163,12 +150,13 @@ h2.title {
 }
 
 .waiting .waiting_wrapper {
-	display: flex;
-	justify-content: space-between;
 	margin-top: 45px;
 }
 
 .waiting .waiting_wrapper .waiting_item {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 15px;
 	width: 339px;
 	text-align: center;
 }
