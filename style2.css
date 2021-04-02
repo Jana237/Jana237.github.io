@@ -11,29 +11,31 @@ html{
   text-align: center;
   color: #ffff;
   background: #003c66;
-
+  
 }
 
 header{
   font-size: 50px;
 }
 
-.container{
+.container {
   min-height: 800px;
   background: url('assets/img/doc.png') center/cover no-repeat;
+}
+
+.container  p {
   text-decoration: underline;
 }
 
-.my_projects {
+.menu {
   display: block;
   left: 10px;
   color: #000000;
-
 }
 
-.my_projects a{
-  color: #000000;
- 
+.menu a{
+  color: #00008b;
+  text-decoration: none;
 }
 
 
