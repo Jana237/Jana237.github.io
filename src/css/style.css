@@ -22,18 +22,18 @@ html {
 .line:before{
 	content: '';
 	display: block;
-	height: 7px;
+	height: 2px;
 	width: 300px;
 	background-color: #FFFFFF;
-	transform: translate(-215px, 47px);
+	transform: translate(-20px,-47px);
 }
 .line::after{
 	content: '';
 	display: block;
-	height: 7px;
+	height: 2px;
 	width: 300px;
 	background-color: #FFFFFF;
-	transform: translate(1050px, 47px);
+	transform: translate(850px, -50px);
 }
 .logo .logo_img {
 	display: block;
