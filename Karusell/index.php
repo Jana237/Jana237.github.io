@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Мир творчества</title>
 	<link rel="icon"  href="img/pngegg(70).png" type="image/x-icon"/>
-	<link rel="stylesheet" href="css/fonts.css">
+	
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
@@ -109,6 +109,7 @@
 					    <button type="button" class="btn btn-success">Записаться</button>
 
 				</div>
+			
 			</div>
 		</div>
 	</section>
